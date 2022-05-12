@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SziSharo Cinema</title>
+    <link rel="shortcut icon" href="../img/szi2.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+
+
+</head>
+
+<body>
+    
+
+<div class="fllo">   
+    <div class="vaszon"></div>
+    <div  id="szekek">
+        <div class="sor" id="elsosor"       ></div>
+        <div class="sor" id="masodiksor"    ></div>
+        <div class="sor" id="harmadiksor"   ></div>
+        <div class="sor" id="negyediksor"   ></div>
+        <div class="sor" id="otodiksor"   ></div>
+        <div class="sor" id="hatodiksor"    ></div>
+        <div class="sor" id="hetediksor"    ></div>
+        <div class="sor" id="nyolcadiksor"    ></div>
+        <div class="sor" id="kilencediksor" ></div>
+        <div class="sor" id="tizediksor"    ></div>
+
+    </div>
+</div>
+
+
+<script>
+    
+    
+// function ohMyButton() {
+//     let sz = document.getElementById("szekek");
+//     let btn = document.createElement("button");
+//     btn.innerHTML = "Click Me";
+//     sz.appendChild(btn);
+    
+// }
+function createButtons(){
+    let o = 0;
+for(i = 1; i < 9; i++) {
+        o++;
+        var button = document.createElement("button");
+    button.innerHTML = o;
+    button.className = "szekclass";
+    var sz1 = document.getElementById("elsosor");
+    sz1.appendChild(button);}
+    
+
+    for(i = 1; i < 9; i++) {
+        o++;
+        var button = document.createElement("button");
+    button.innerHTML = o;
+    button.className = "szekclass";
+    var sz2 = document.getElementById("masodiksor" );
+    sz2.appendChild(button); 
+}
+    for(i = 1; i < 9; i++) {
+        o++;
+        var button = document.createElement("button");
+    button.innerHTML = o;
+    button.className = "szekclass";
+    var sz3 = document.getElementById("harmadiksor" );
+
+    sz3.appendChild(button);
+}
+    for(i = 1; i < 9; i++) {
+        o++;
+        var button = document.createElement("button");
+    button.innerHTML = o;
+    button.className = "szekclass";
+    var sz4 = document.getElementById("negyediksor");
+
+    sz4.appendChild(button);
+
+
+
+
+
+}
+    for(i = 1; i < 9; i++) {
+        o++;
+        var button = document.createElement("button");
+    button.innerHTML = o;
+    button.className = "szekclass";
+    var sz5 = document.getElementById("otodiksor");
+
+    sz5.appendChild(button);
+}
+    for(i = 1; i < 9; i++) {
+        o++;
+        var button = document.createElement("button");
+    button.innerHTML = o;
+    button.className = "szekclass";
+    var sz6 = document.getElementById("hatodiksor");
+
+    sz6.appendChild(button);
+}
+    for(i = 1; i < 9; i++) {
+        o++;
+        var button = document.createElement("button");
+    button.innerHTML = o;
+    button.className = "szekclass";
+    var sz7 = document.getElementById("hetediksor");
+
+    sz7.appendChild(button);
+}
+    for(i = 1; i < 9; i++) {
+        o++;
+        var button = document.createElement("button");
+    button.innerHTML = o;
+    button.className = "szekclass";
+    var sz8 = document.getElementById("nyolcadiksor");
+
+    sz8.appendChild(button);
+}
+    for(i = 1; i < 9; i++) {
+        o++;
+        var button = document.createElement("button");
+    button.innerHTML = o;
+    button.className = "szekclass";
+    var sz9 = document.getElementById("kilencediksor");
+
+    sz9.appendChild(button);
+}
+    for(i = 1; i < 9; i++) {
+        o++;
+        var button = document.createElement("button");
+    button.innerHTML = o;
+    button.className = "szekclass";
+    var sz10 = document.getElementById("tizediksor");
+    sz10.appendChild(button);}
+
+  }
+
+document.body.addEventListener("load", createButtons(), false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+crossorigin="anonymous"></script>
+</body>
+</html>
