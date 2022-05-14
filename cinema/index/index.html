@@ -9,15 +9,13 @@
     <link rel="shortcut icon" href="../img/szi2.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -43,7 +41,7 @@
                         <a class="nav-link active" href="#" style="color: #FFD700;">Premier</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active " href="../jegy/index.html" tabindex="-1">Jegyfoglalás</s></a>
+                        <a class="nav-link active " href="../jegy/atiranyit.html" tabindex="-1">Jegyfoglalás</s></a>
                     </li>
                 </ul>
             </div>
@@ -105,16 +103,8 @@
 
 
 
-        <script>
-            const hamburgerMenu = document.querySelector('.navbar-toggler'); //Selects the element with the class name of navbar-toggler.
-            //Creating an arrow function for changing the class to active.
-            const menuIsActive = () => {
-              //Selecting the hamburger menu and adding and removing the class of active on click.
-              hamburgerMenu.classList.toggle('active');
-            };
-            //Adds an event listener of 'click' to the hamburger menu. Then we pass in the function we created where the class is toggled on and off.
-            hamburgerMenu.addEventListener('click', menuIsActive);
-          </script>
+        <script src="../javascript/main.js">
+        </script>
 </body>
 
 </html>

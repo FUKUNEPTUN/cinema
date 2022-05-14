@@ -1,0 +1,13 @@
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .flex-container > div {
+  text-align: center;
+  margin: 5px;
+} 
+.card{
+  border: #debd00 5px solid;
+}
