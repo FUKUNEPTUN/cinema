@@ -3,17 +3,23 @@
 }
 #link{
   text-decoration: none;
-  background-color: red;
+  background-color:black ;
   color: aliceblue;
   width: 100px;
-
   text-align: center;
   padding: 7px 0;
+  border: rgb(248, 160, 160) 3px solid;
   border-radius: 15px;
 }
 #link:hover{
-  background-color: rgb(158, 3, 3);
+  background-color: rgba(0, 0, 0, 0.6);
 }
+.navbar{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 body {
 
   color: #fff;
@@ -35,7 +41,7 @@ body {
 
 .szeek {
   background-color: gold;
-  height: 12px;
+  height: 14px;
   width: 15px;
   margin: 3px;
 }
@@ -48,12 +54,13 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.szeek:nth-of-type(2) {
-  margin-right: 18px;
+.szeek:nth-of-type(3) {
+  margin-right: 13px;
 }
 
+
 .szeek:nth-last-of-type(2) {
-  margin-left: 18px;
+  margin-left: 13px;
 }
 
 .szeek:not(.foglalt):hover {
@@ -61,12 +68,12 @@ body {
   transform: scale(1.2);
 }
 
-.showcase .szeek:not(.foglalt):hover {
+.esetek .szeek:not(.foglalt):hover {
   cursor: default;
   transform: scale(1);
 }
 
-.showcase {
+.esetek {
   background: rgba(0, 0, 0, 0.466);
   padding: 5px 10px;
   border-radius: 5px;
@@ -76,14 +83,14 @@ body {
   justify-content: space-between;
 }
 
-.showcase li {
+.esetek li {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 10px;
 }
 
-.showcase li small {
+.esetek li small {
   margin-left: 2px;
 }
 
@@ -97,4 +104,9 @@ p.text {
 
 p.text span {
   color: #6feaf6;
+}
+.szeek.foglalt.bors{
+  background-color: rgba(0, 0, 0, 0);
+  height: 13px;
+  font-size: 12px;
 }
