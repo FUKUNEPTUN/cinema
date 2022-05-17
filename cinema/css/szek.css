@@ -1,7 +1,19 @@
 * {
   box-sizing: border-box;
 }
+#link{
+  text-decoration: none;
+  background-color: red;
+  color: aliceblue;
+  width: 100px;
 
+  text-align: center;
+  padding: 7px 0;
+  border-radius: 15px;
+}
+#link:hover{
+  background-color: rgb(158, 3, 3);
+}
 body {
 
   color: #fff;
@@ -18,21 +30,22 @@ body {
   perspective: 1000px;
   margin-bottom: 30px;
   border: gold solid 5px;
+  background-color: gray;
 }
 
 .szeek {
-  background-color: #444451;
+  background-color: gold;
   height: 12px;
   width: 15px;
   margin: 3px;
 }
 
 .szeek.kivalasztott {
-  background-color: #6feaf6;
+  background-color: #ff0000;
 }
 
 .szeek.foglalt {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
 }
 
 .szeek:nth-of-type(2) {
@@ -54,10 +67,10 @@ body {
 }
 
 .showcase {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.466);
   padding: 5px 10px;
   border-radius: 5px;
-  color: #777;
+  color: rgb(255, 255, 255);
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -76,15 +89,6 @@ body {
 
 .sor {
   display: flex;
-}
-
-.screen {
-  background-color: #fff;
-  height: 70px;
-  width: 100%;
-  margin: 15px 0;
-  transform: rotateX(-45deg);
-  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
 }
 
 p.text {

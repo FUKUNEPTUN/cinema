@@ -1,7 +1,6 @@
-const container = document.querySelector('.container1');
-const szeeks = document.querySelectorAll('.sor .szeek:not(.foglalt)');
+let container = document.querySelector('.container1');
+let szeeks = document.querySelectorAll('.sor .szeek:not(.foglalt)');
 
-// szeek click event
 container.addEventListener('click', e => {
   if (
     e.target.classList.contains('szeek') &&
@@ -9,6 +8,6 @@ container.addEventListener('click', e => {
   ) {
     e.target.classList.toggle('kivalasztott');
 
-    updatekivalasztottCount();
   }
 });
+
