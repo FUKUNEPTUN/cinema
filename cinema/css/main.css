@@ -71,17 +71,24 @@ body{
       transform: translateY(-13px)
       rotate(-45deg); /*Moves up this line 13px and rotates it -45 degrees to create the X*/
   }  
-  
   footer{
     background-color: rgba(134, 250, 250, 0.345);
     color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    position: absolute;
     width: 100%;
+
+  }
+  .notgoofy{
+    position: absolute;
     bottom: 0;
   }
+  @media only screen and (min-width: 895px){
+  .goofy{
+    position: absolute;
+    bottom: 0;
+  }}
   ::-webkit-scrollbar {
     width: 10px;
     background-color: rgb(189, 172, 172);
